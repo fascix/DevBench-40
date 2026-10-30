@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "protocolVersion": 1,
+  "id": "devbench-40",
+  "name": "DevBench-40",
+  "author": "Community",
+  "version": "1.0.0",
+  "description": "Benchmark multi-technologies de développement logiciel : génération, debugging, refactoring, architecture, tests, code review, backend et DevOps.",
+  "entry": "./dist/benchlocal/index.js",
+  "requirements": {
+    "benchlocal": {
+      "minVersion": "0.3.0"
+    }
+  },
+  "samplingDefaults": {
+    "temperature": 0
+  },
+  "capabilities": {
+    "tools": false,
+    "multiTurn": false,
+    "streamingProgress": true,
+    "verification": false
+  }
+}

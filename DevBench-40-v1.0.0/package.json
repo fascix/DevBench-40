@@ -1,0 +1,19 @@
+{
+  "name": "devbench-40",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DevBench-40 BenchLocal pack",
+  "main": "dist/benchlocal/index.js",
+  "scripts": {
+    "build:benchlocal": "tsc -p tsconfig.benchlocal.json",
+    "typecheck": "tsc -p tsconfig.benchlocal.json --noEmit"
+  },
+  "dependencies": {
+    "@benchlocal/core": "0.3.0",
+    "@benchlocal/sdk": "0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsc-alias": "^1.8.10"
+  }
+}
